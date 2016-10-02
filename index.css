@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+li {
+    position: relative;
+    left: -210px;
+    display: inline;
+}
+li a {
+    font-family: "Arial";
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: rgba(215, 11, 11, 1);
+}
+li:first-child {
+    position: relative;
+    left: 0;
+}
+li:last-child {
+    margin-right: auto;
+}
+li:nth-child(2) {
+    margin-left: auto;
+}
