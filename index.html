@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: #333;
+            }
+            li {
+                display: inline;
+            }
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover {
+                background-color: #111;
+            }
+            .active {
+                background-color: rgba(215, 11, 11, 1);
+            }
+        </style>
         <title>Studio Kicks Beta</title>
     </head>
     <body>
-        <ol>
-            <li>Fitness</li>
-            <li>Martial Arts</li>
-            <li>News and Events</li>
-            <li>About Us</li>
-        </ol>
+        <ul>
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="">Fitness</a></li>
+            <li><a href="">Martial Arts</a></li>
+            <li><a href="">News and Events</a></li>
+            <li><a href="">About Us</a></li>
+        </ul>
     </body>
 </html>
