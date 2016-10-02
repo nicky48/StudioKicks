@@ -6,6 +6,8 @@ ul {
     background-color: #333;
 }
 li {
+    position: relative;
+    left: -210px;
     display: inline;
 }
 li a {
@@ -21,9 +23,13 @@ li a:hover {
 .active {
     background-color: rgba(215, 11, 11, 1);
 }
+li:first-child {
+    position: relative;
+    left: 0;
+}
 li:last-child {
     margin-right: auto;
 }
-li:first-child {
+li:nth-child(2) {
     margin-left: auto;
 }
