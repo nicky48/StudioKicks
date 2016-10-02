@@ -11,6 +11,7 @@ li {
     display: inline;
 }
 li a {
+    font-family: "Arial";
     display: inline-block;
     color: white;
     text-align: center;
